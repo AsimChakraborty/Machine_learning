@@ -13,9 +13,9 @@
            <div class="container">
               <div class="row">
                 <div class="headername">
-                    <h2> Heart_Disease_Prediction</h2>
+                    <h2> Check Disease!!!</h2>
                 </div>
-                 <div class="col-lg-6 offset-lg-6">
+                 <div class="col-lg-4 offset-lg-4">
                     <div class="login-box">
 
                     <div style="color:black;" class="ml-container">
@@ -23,12 +23,23 @@
                             <br>
                             <br>
                       
-                            <h3>Enter you Gender</h3>
+                            <!-- <h3>Enter you Gender</h3>
                             <select id="first" class="frm-ctrl"name="sex">
                                 <option value="None">Sex</option>
                                 <option value="Gender">Male</option>
                                 <option value="Gender">Female</option>
-                            </select>
+                            </select> -->
+                            
+                            <label class="radio-inline">
+                            <input type="radio" id="first" name="sex" value="Sex">
+                              <label for="Male">Male</label><br>
+                            </label>
+                            <label class="radio-inline"></label>
+                            <input type="radio" id="first" name="sex" value="sex">
+                              <label for="Female">Female</label>
+                            <br>
+                            </label>
+                          
                             <br>
                             <h3>Enter your age</h3>
                             <input id="second" name="age"  class="frm-ctrl" placeholder="in age" required="required">
@@ -71,11 +82,12 @@
                             <br>
                             <br>
                             <button type="submit" class="btn-login">Predict</button>
-                            <h4>{{ prediction_text }}</h4>
+                            <!-- <h4>{{ prediction_text }}</h4> -->
                             <br>
                             <br>
                             <br>
                             <br>
+                            
                        </form>
                     </div>
                     </div>
